@@ -1,0 +1,83 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #f9f9f9;
+    padding: 20px;
+    text-align: center;
+}
+
+.menu-descripcion {
+    background-color: #f7f7f7;
+    width: 300px; /* Ajusta el ancho según tus preferencias */
+    padding: 20px;
+    float: left; /* Para colocarlo en el lado izquierdo */
+    box-sizing: border-box;
+}
+
+.descripcion-item {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+}
+
+/* Estilo de la barra lateral */
+.menu-descripcion {
+    background-color: #f7f7f7;
+    width: 300px;
+    padding: 20px;
+    box-sizing: border-box;
+    position: fixed;
+    top: 100;
+    left: 0;
+    bottom: 0;
+}
+
+/* Estilo de los elementos en la barra lateral */
+.descripcion-item {
+    margin-bottom: 20px;
+}
+
+/* Asegurar que el contenido del menú no se solape con la barra lateral */
+.menu {
+    margin-left: 320px;
+}
+
+
+main {
+    padding: 20px;
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.item {
+    width: calc(33.33% - 20px);
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+}
+
+footer {
+    background-color: #f9f9f9;
+    padding: 10px;
+    text-align: center;
+}
